@@ -1,0 +1,20 @@
+{
+    "name": "muraveyko/php-heroku-template-simple-master",
+    "description": "homework",
+    "require": {
+        "psr/log": "^3.0",
+        "monolog/monolog": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Muraveyko\\PhpHerokuTemplateSimpleMaster\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anatolii Muraveiko",
+            "email": "anatolii.muraveiko@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable"
+}
