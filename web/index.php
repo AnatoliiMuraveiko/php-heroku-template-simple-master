@@ -5,7 +5,7 @@ session_start();
 //include 'form.html';
 $_SESSION['count'] = isset($_SESSION['count'])? ++$_SESSION['count'] : 1;
 
-if ($_SESSION['count'] <= 0) {
+if ($_SESSION['count'] <= 1) {
     include 'form.html';
 } else {
     echo 'Привет';
