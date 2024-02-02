@@ -8,9 +8,9 @@ if (ini_get("session.use_cookies")) {
         $params["secure"], $params["httponly"]
     );
 }
+
 session_destroy();
 
-if ($_SESSION['count'] = 0) {
+
     header("HTTP/1.1 301 Moved Permanently");
     header("Location: index.php");
-}
